@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* JUST SO THAT THE SHADOW OF THE FORM WILL BE MORE OBIOUS, I TINT THE BACKGROUND */
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+
+
+
+/*  THE MAIN CONTAINER FOR BOTH THE IMAGE AND THE FORM */
+.container {
+    border-radius: 10px;
+    overflow: hidden;
+    height: 80vh;
+    width: 120vh;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    box-shadow: 2px 2px 50px rgb(212, 208, 208), -2px -2px 50px rgb(201, 201, 201) ;
+
+}
+
+
+
+/* STYLING FOR THE IMAGE CONTAINER */
+
+.left{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 45%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: url(img/girl.png);
+    background-size: 100% 100%;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+
+    /* background-color: rgb(104, 62, 143); */
+}
+
+.left h2 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 400px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.left p {
+    color: white;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+
+
+
+
+
+/* THE FORM DIV STYLING!! WHERE THE MAGIC HAPPENS */
+.form{
+    padding: 50px 80px;
+    height: 100%;
+    width: 55%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 20px;
+}
+
+.form h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(71, 70, 70);
+    text-transform: uppercase;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.form p {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-size: large; */
+    margin-bottom: -10px;
+}
+
+
+
+/*  THIS IS STYLING FOR THE INPUT  */
+
+input{
+    border: 1.6px solid grey;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+/*  THE FORGET  PASSWORD TEXT UNDER THE LOGIN FORMS */
+
+
+.forgot {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(56, 178, 223);
+    margin-top: -20px;
+}
+
+
+
+.members {
+    text-align: end;
+    margin-top: -15px;
+   
+}
+
+
+
+
+/* THE TROUBLESOME OR DIV THIS IS WHERE I MADE THE CIRCLE FOR THE OR AT AND PUSHED IT TO THE CENTER */
+
+.ordiv {
+    margin-left: 45%;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    box-shadow: 1.5px 1.5px 10px rgba(72, 71, 71, 0.278);
+    
+}
+
+
+
+
+
+.ordiv p {
+    margin-top: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+/* THE LOGIN BAR  */
+
+.login {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 10px 50px;
+    background-color: rgb(56, 178, 223);
+
+}
+
+
+
+/* THIS IS THE SOCIAL BUTTONE CUSTOMIZATION AT THE BOTTOM OF THE PAGE  ***WOOSH****/
+/* CSS IS ACTUALLY EASIER THAN I HAD THOUGHT */
+
+
+.social {
+    justify-content:center;
+    margin-top: px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+
+.facebook {
+    color: white;
+    background-color: rgb(80, 80, 232);
+    border-radius: 5px;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.google {
+    color: white;
+    background-color: rgb(231, 49, 49);
+    border-radius: 5px;
+    padding: 10px 60px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* THANK YOU SO MUCH FOR GOING THROUGH MY CODE HOPE YOU FOUND WHAT YOU WERE LOOKING FOR>>>>>> */
+/* >>>>>>>>>GODSFAVOUR<<<<<<<< */
+/* >>>>>>>>>EMAIL ADDRESS<<<<<<<< */
+/* >>>>>>>>>godsfavourinnocent@gmail.com<<<<<<<< */
+/* >>>>>>>>>  08136803706 <<<<<<<< */
+
+/* THIS IS THE END OF MY CODE, FOR THOSE THAT WOULD WANT TO COPY FEEL FREE TO GIVE ME CREDIT */
+/* THIS IS ALM0ST 5 HOURS OF CODING, EVEN THOUGH THE JOY OF SEEING IT WORK JUST AS I WANT IS ENOUGH
+TO KEEP ME MOTIVATED. */
